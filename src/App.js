@@ -1,10 +1,12 @@
 import './App.css';
 
 function App() {
+  const forum = global.forumData || {}
+
   return (
     <div className="App">
       <header className="App-header">
-        <p>Prueba de diseño para foroactivo en React</p>
+        <p>{forum.siteName}</p>
       </header>
     </div>
   );
