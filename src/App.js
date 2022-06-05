@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>{forum.siteName}</p>
+        <p>Nombre: {forum.siteName}</p>
       </header>
     </div>
   );
